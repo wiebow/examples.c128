@@ -52,7 +52,7 @@ upstartEnd:
 		lda #%00000000  // all roms, RAM 0. default setting.
 	}
 	.if(id==99) {
-		lda #%00001110  // IO, kernal, RAM0. No basic,48K RAM. custom setting.
+		lda #%00001110  // IO, kernal, RAM0. No basic,48K RAM.
 	}
 	sta MMUCR
 }

@@ -94,7 +94,3 @@
 .const SCRORG 		= $ffed 	// get current screen window size
 .const PLOT 		= $fff0 	// set or read cursor position
 								// now uses $e4 - $ee, editor parameters
-
-
-
-
